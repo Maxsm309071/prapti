@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background: #ff4646b3 url();
+  background-size: contain;
+  background-blend-mode: darken;
+  height: 5vh;
+  position: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  background-image: url(./bg.png);
+  background-size: contain;
+  height: 83vh;
+  background-repeat: no-repeat;
+  right: 20%;
+  margin-left: 380px;
+}
+
+.form {
+  height: 83vh;
+  width: 98vw;
+}
+
+.container {
+  width: 85%;
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+.cards {
+  background-color: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.image-section {
+  height: 325px;
+  /* background-color: red; */
+}
+
+.cards .img1 {
+  background-image: url(./mc.jpg);
+  filter: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cards .img2 {
+  background-image: url(./img1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cards .img3 {
+  background-image: url(./img2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  padding: 10px;
+}
+
+.navbar {
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  background: #ff4646b3;
+}
+
+.nav-list {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 26px 30px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.nav-list li a:hover {
+  color: rgb(0, 0, 0);
+  /* border: 2px solid black; */
+}
+.nav-list li a:active {
+  color: rgb(67, 67, 67);
+  /* border: 2px solid black; */
+}
+div h2 {
+  position: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

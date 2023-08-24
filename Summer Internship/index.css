@@ -1,0 +1,65 @@
+*{
+  margin: 0px;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("41481.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 920px;
+}
+.menu {
+  display: flex;
+ margin-right: 50px;
+ 
+ text-transform: capitalize;
+ gap: 10px;
+
+}.menu li a {
+  text-decoration: none;
+  
+  color:black;
+}
+.menu li a:hover {
+ padding: 5px;
+ border: 2px solid black;
+ border-radius: 5px;
+
+}
+
+.menu li {
+  float: right;
+  color: black;
+  list-style: none;
+  margin-top: 10px;
+}
+.fmenu li{
+list-style:none;
+}
+.fmenu li a{
+text-decoration: none;
+
+ }
+.abc{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flogo li{
+  list-style: none;
+  
+}
+.fmenu{
+  text-transform: capitalize ;
+  margin-right: 10px;
+}
+.socialmedia{
+  list-style: none;
+  margin-left: 20px;
+}
+footer{
+  margin: 10px;
+}
